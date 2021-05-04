@@ -1,0 +1,120 @@
+* {
+    margin: 0%;
+    padding: 0%;
+}
+.display{
+    background-image:url(https://st2.depositphotos.com/5346882/8503/v/950/depositphotos_85033804-stock-illustration-abstract-colorful-triangle-geometrical-blue.jpg);
+    background-image:cover;
+	height: 100vh;
+    display: flex;
+    font-family: cursive;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+	
+}
+h1{
+	text-align: center;
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+}
+form input[type=text]{
+    
+    padding: 10px;
+    width: 300px;
+    font-size: 18px;
+    outline-color:black;
+    border: none;
+    border-radius: 3px;}
+
+h2{
+    color: #fff;
+    margin-bottom: 30px;
+	text-align:center;
+}
+@media screen and (min-width:1000px) {
+    .display{
+        
+        justify-content: space-around;
+    }
+    h1{
+        font-size: 40px;
+    }
+}
+@media screen and (max-width:400px) {
+    form input[type=text]{
+    
+        padding: 10px;
+        width: 250px;
+        font-size: 18px;
+        outline-color:black;
+        border: none;
+        border-radius: 3px;
+    }
+    h2{
+        font-size: 20px;
+        color: rgb(77, 77, 77)!important;
+    }
+    h1{
+        font-size: 25px;
+        
+    }
+}
+h2{
+    color: rgb(77, 77, 77)!important;
+}
+form label{
+    font-size: 18px;
+    color: #000;
+    margin-top: 10px;
+	
+}
+
+form div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.sub{
+    
+    justify-content: center;
+    align-items: center;
+}
+.sub button{
+    border: none;
+    padding: 5px 10px;
+    font-size: 20px;
+    border-radius: 50px;
+    background: #000;
+    color: grey;
+    font-weight: bold;
+}
+.sub button:hover{
+    background-color:grey;
+    color: #000;
+   
+}
+
+.banner{
+    background: rgba(255, 255, 255, 0.486);
+    padding: 30px;
+    border-radius: 20px;
+   box-sizing: border-box;
+   max-width: 350px;
+	box-shadow: 5px 5px 5px 5px rgba(0, 0, 0, 0.322);
+}
+::placeholder{
+    color: rgba(0, 0, 0, 0.301);
+    
+}
+.output{
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+}
+.output label{
+    font-size: 20px;
+    margin-bottom: 5px;}
